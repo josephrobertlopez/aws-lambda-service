@@ -338,21 +338,21 @@ typeguard = ">=2.13.3,<5.0.0"
 
 [[package]]
 name = "cdk-nag"
-version = "2.28.195"
+version = "2.31.0"
 description = "Check CDK v2 applications for best practices using a combination on available rule packs."
 optional = false
 python-versions = "~=3.8"
 files = [
-    {file = "cdk_nag-2.28.195-py3-none-any.whl", hash = "sha256:6a33dbad938b66946f2d89a8a010a6e2b9cb42c8703aa3b4991b6ad572596b8a"},
-    {file = "cdk_nag-2.28.195.tar.gz", hash = "sha256:c96ead451197dde434451c5bfef2c63edd0c7e766dd4a39268d9a8b8632da612"},
+    {file = "cdk_nag-2.31.0-py3-none-any.whl", hash = "sha256:5489bd59294a434fe4adcabce4d5bb39b1e58a794b62b088ad33c68d094bd3d9"},
+    {file = "cdk_nag-2.31.0.tar.gz", hash = "sha256:3d3dac4e538ddfee5a165d0755de6cf65ab837f586def9c39e17b863ff2b26da"},
 ]
 
 [package.dependencies]
-aws-cdk-lib = ">=2.116.0,<3.0.0"
+aws-cdk-lib = ">=2.156.0,<3.0.0"
 constructs = ">=10.0.5,<11.0.0"
-jsii = ">=1.103.1,<2.0.0"
+jsii = ">=1.104.0,<2.0.0"
 publication = ">=0.0.3"
-typeguard = ">=2.13.3,<5.0.0"
+typeguard = ">=2.13.3,<4.3.0"
 
 [[package]]
 name = "certifi"
@@ -1098,22 +1098,22 @@ files = [
 
 [[package]]
 name = "jsii"
-version = "1.103.1"
+version = "1.104.0"
 description = "Python client for jsii runtime"
 optional = false
 python-versions = "~=3.8"
 files = [
-    {file = "jsii-1.103.1-py3-none-any.whl", hash = "sha256:24b96349230ca22f50fcd69c501e69b6c486acf37bbe0b5869f4c185572b079e"},
-    {file = "jsii-1.103.1.tar.gz", hash = "sha256:7eaa46e8cd9546edc6bba81d0b32df9f8ed8f5848305277d261cccfe00b9c1eb"},
+    {file = "jsii-1.104.0-py3-none-any.whl", hash = "sha256:c1da4d21be208db7dd341bc8fd9c4cdbaa5ff1a3cec7ce4f5f4e3ce89bc949cc"},
+    {file = "jsii-1.104.0.tar.gz", hash = "sha256:1e9b3e49797450258d473c16052258f2291bde4dd410d30c21e325c000c10a0c"},
 ]
 
 [package.dependencies]
 attrs = ">=21.2,<25.0"
-cattrs = ">=1.8,<23.3"
+cattrs = ">=1.8,<24.2"
 importlib-resources = ">=5.2.0"
 publication = ">=0.0.3"
 python-dateutil = "*"
-typeguard = ">=2.13.3,<5.0.0"
+typeguard = ">=2.13.3,<4.3.0"
 typing-extensions = ">=3.8,<5.0"
 
 [[package]]
